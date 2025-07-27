@@ -10,6 +10,11 @@ class GPingBase {
         setTemp(24);
     }
 
+    // сбросить фильтры (применится на следующем измерении)
+    void reset() {
+        _first = true;
+    }
+
     // установить температуру воздуха [градусы Цельсия]
     void setTemp(int8_t temp) {
         _tempK = 331 + temp * 61 / 100;

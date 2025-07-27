@@ -1,7 +1,7 @@
 #pragma once
 #include <inttypes.h>
 
-#define GP_MAX_DIST 500ul    // макс. измеряемое расстояние [мм]
+#define GP_MAX_DIST 400ul    // макс. измеряемое расстояние [см]
 #define GP_TRIG_PULSE 10     // импульс триггера [мкс]
 #define GP_TRIG_TOUT 1000ul  // таймаут триггера [мкс]
 
